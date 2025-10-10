@@ -1,0 +1,28 @@
+{
+  "name": "chai-aur-backend",
+  "version": "1.0.0",
+  "description": "a backend at kanti aur coffee ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src /index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantilal0707/chai-aur-backend.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "kantilal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kantilal0707/chai-aur-backend/issues"
+  },
+  "homepage": "https://github.com/kantilal0707/chai-aur-backend#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
