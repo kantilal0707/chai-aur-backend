@@ -2,9 +2,9 @@
 
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
-import express from "express";
-const app = express()
-app.use(express.json())
+//import express from "express";
+//const app = express()
+//app.use(express.json())
 
 //import { DB_NAME } from "./constants.js";
 
@@ -13,16 +13,16 @@ dotenv.config({
 })
 
 connectDB()
-.then(()=>{
-    app.listen (process.env.PORT || 8000, ()=>{
-        console.log(`0 server is running ar port :${
-            process.env.PORT
-        } `);
-    })
-})
-.catch((err)=>{
-    console.log("MONGODB connection faile!!1",err)
-})
+//.then(()=>{
+//    app.listen (process.env.PORT || 8000, ()=>{
+ //       console.log(`0 server is running ar port :${
+//            process.env.PORT
+//        } `);
+//    })
+//})
+//.catch((err)=>{
+//    console.log("MONGODB connection faile!!1",err)
+//})
 
 /* first method for database connection for mongodb
 import express from 'express'
